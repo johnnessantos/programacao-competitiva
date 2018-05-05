@@ -1,6 +1,0 @@
-Fib(3) = 4 calls = 2
-Fib(7) = 40 calls = 13
-Fib(15) = 1972 calls = 610
-Fib(28) = 1028456 calls = 317811
-Fib(38) = 126491970 calls = 39088169
-Fib(29) = 1664078 calls = 514229
