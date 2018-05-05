@@ -1,0 +1,19 @@
+ddd = int(raw_input())
+if ddd == 61:
+    print 'Brasilia\n'
+elif ddd == 71:
+    print 'Salvador\n'
+elif ddd == 11:
+    print 'Sao Paulo\n'
+elif ddd == 21:
+    print 'Rio de Janeiro\n'
+elif ddd== 32:
+    print 'Juiz de Fora\n'
+elif ddd== 19:
+    print 'Campinas\n'
+elif ddd == 27:
+    print 'Vitoria\n'
+elif ddd == 31:
+    print 'Belo Horizonte\n'
+else :
+    print 'DDD nao cadastrado\n'

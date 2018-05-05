@@ -1,0 +1,33 @@
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main(){
+    float x,y;
+    cin>>fixed>>setprecision(1)>>x>>y;
+    if(x==0.0 && y==0.0){
+        cout<<"Origem\n";
+    }else{
+        if((x==0) || (y==0)){
+            if(x==0.0){
+                cout<<"Eixo Y\n";
+            }else{
+                cout<<"Eixo X\n";
+            }
+        }else{
+            if(x>0){
+                if(y>0){
+                    cout<<"Q1\n";
+                }else{
+                    cout<<"Q4\n";
+                }
+            }else{
+                if(y>0){
+                    cout<<"Q2\n";
+                }else{
+                    cout<<"Q3\n";
+                }
+            }
+        }
+    }
+    return 0;
+}
